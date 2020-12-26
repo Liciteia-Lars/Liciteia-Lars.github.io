@@ -136,16 +136,16 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
     font-family: 'chosun_myungjo';
     src: url('/assets/fonts/chosun_ilbo_myungjo.woff2') format('woff2'),
          url('/assets/fonts/chosun_ilbo_myungjo.woff') format('woff');
-    font-weight: bold;
-    font-style: bold;
+    font-weight: normal;
+    font-style: normal;
 }
 
 html {
   font-size: 62.5%; }
 body {
-  font-size: 2em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 1.8em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
-  font-weight: 400;
+  font-weight: bold;
   /* font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif; */
   /* font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; */
   /* font-family: -apple-system-font,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif; */
